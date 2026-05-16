@@ -404,14 +404,7 @@ button {
 }
 
 .benefits-icon-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: var(--cloud);
-  border: 1px solid var(--light-slate); 
-  border-radius: 4px;
-  margin-bottom: 8px;
+  display: none;
 }
 
 @media screen and (min-width: 1158px) {
@@ -421,6 +414,7 @@ button {
     justify-content: center;
     height: 112px;
     background-color: var(--cloud);
+    border: 1px solid var(--light-slate); 
     border-radius: 4px;
     margin-bottom: 8px;
   }
